@@ -2,3 +2,15 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
+.nav-link {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.bg-jumbotron {
+    background-image: url("../img/header-background.jpg");
+    padding: 14rem;
+    background-size: cover;
+    background-attachment: fixed;
+}
