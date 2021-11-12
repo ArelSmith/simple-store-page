@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Store Page</title>
 </head>
-<body>
+<body onload="loading();">
+    <div class="loading overlay">
+        <div class="spinner-border text-info" style="width: 3rem; height: 3rem;" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">CryZent</a>
@@ -24,14 +29,16 @@
           </div>
         </div>
       </nav>
+      
       <div class="row align-items-md-stretch">
         <div class="col-md">
           <div class="bg-jumbotron text-white">
-            <h2>Change the background</h2>
-            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+            <h1>CryZent</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, illo.</p>
           </div>
         </div>
-      </div>
-  
+    </div>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
