@@ -1,10 +1,6 @@
 const target = document.querySelector('.loading');
 
 function loading() {
-    for(let i = 0; i < 99999999; i++)
-    {
-
-    }
     const effect = setInterval(() => {
         if(!target.style.opacity) {
             target.style.opacity = 1;
