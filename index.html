@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Store Page</title>
 </head>
-<body onload="loading();">
-    <div class="loading overlay">   
+<body>
+    <!-- <div class="loading overlay">   
         <div class="spinner-border text-info" style="width: 3rem; height: 3rem;" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    </div> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
           <a class="navbar-brand" href="#">CryZent</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,35 @@
             </div>
           </div>
         </div>
-      </nav>
+    </nav>
       
-      <div class="row align-items-md-stretch">
-        <div class="col-md">
-          <div class="bg-jumbotron text-white">
-            <h1>CryZent</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, illo.</p>
-          </div>
-        </div>
+    <div class="row align-items-md-stretch">
+      	<div class="col-md">
+        	<div class="bg-jumbotron text-white">
+          		<h1>CryZent</h1>
+          		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, illo.</p>
+        	</div>
+      	</div>
     </div>
+    <!-- Info Panel -->
+    <div class="row justify-content-center">
+		<div class="col-10 info-panel">
+			<div class="row text-center">
+				<div class="col-sm">
+					<h4><img src="assets/img/24_hours.png" alt="24 Hours" width="50" height="50"> Full service</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm">
+					<h4><img src="assets/img/user.png" alt="User" width="50" height="50"> Best Keyboard Quality</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="col-sm">
+					<h4><img src="assets/img/price_icon.png" alt="User" width="50" height="50"> Best Price</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+		</div>
+	</div>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
